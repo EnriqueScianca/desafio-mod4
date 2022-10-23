@@ -7,6 +7,9 @@
   
   <!-- * * GOOGLE FONTS -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
   
   <!-- * * HEADER -->
   <script defer src="./components/header.js"></script>
@@ -16,6 +19,7 @@
   <script defer src="./components/footer.js"></script>
   <link rel="stylesheet" href="./components/footer.css">
 
+
   <!-- * * INDEX -->
   <script defer src="./pages/portfolio.js"></script>
   <link rel="stylesheet" href="./pages/portfolio.css">
@@ -24,7 +28,34 @@
 </head>
 <body>
 
-  <div class="header"></div>
   
+
+  <div class="header-div"></div>
+
+  
+
+  <section class="portfolio">
+    <h2 class="portfolio-title">Portfolio</h2>
+    <p class="portfolio-description">Algo que quieras sobre tu portfolio.</p>
+
+    <!-- <div class="portfolio-content"> -->
+    </div>
+  </section>
+  <div class="portfolio-content"></div>
+
+
+  <template id="portfolio-card-template">
+    <div class="portfolio-card">
+      <img src="./images/fondo.jpeg" alt="" class="portfolio-img">
+      <div class="portfolio-card-content">
+        <h4 class="portfolio-card-title">Un trabajo que hice</h4>
+        <p class="portfolio-card-text">Te cuento un poco mas sobre este trabajo y sobre como la rompi en este proyecto. Si se hace asi...</p>
+        <a href="" class="portfolio-card-link">Ver Mas</a>
+      </div>
+    </div>
+  </template>
+  
+  <div class="footer-div"></div>
+
 </body>
 </html>

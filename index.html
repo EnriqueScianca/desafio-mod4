@@ -7,19 +7,33 @@
 
   <!-- GOOGLE FONTS -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
 
 
+  
   <!-- HEADER -->
   <script defer src="./components/header.js"></script>
   <link rel="stylesheet" href="./components/header.css">
 
+
+  <script defer src="./pages/servicios.js"></script>
+  <script defer src="./components/servicios.js"></script>
+  
   <!-- FORM -->
   <script defer src="./components/form.js"></script>
   <link rel="stylesheet" href="./components/form.css">
 
+  <!-- FOOTER -->
+  <script defer src="./components/footer.js"></script>
+  <link rel="stylesheet" href="./components/footer.css">
+  
   <!-- INDEX -->
   <script defer src="./pages/index.js"></script>
   <link rel="stylesheet" href="./pages/index.css">
+
+
 
   <title>Home</title>
 </head>
@@ -27,48 +41,37 @@
 <body>
   <!--  ** HEADER -->
 
-    <div class="header"></div>
+    <div class="header-div"></div>
 
-    <section class="welcome">
-      <template class="welcome-template">
+    <section class="welcome" id="welcome">
+      <template id="welcome-template">
         <h1 class="welcome__titulo">Hola Soy Enrique</h1>
       </template>
     </section>
 
     <section class="sobreMi">
-      <template class="sobreMi-template">
+      <template id="sobreMi-template">
         <div class="sobreMi__container">
-          <img src="" alt="" class="sobreMi__image">
           <div class="sobreMi__presentacion">
             <h1 class="sobreMi__titulo">Soy Enrique</h1>
             <p class="sobreMi__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio id, accusamus distinctio perspiciatis officiis repellat modi nemo, possimus tempora esse reiciendis cumque saepe obcaecati deleniti quo odit, alias laboriosam beatae.</p>
+            <img src="" alt="" class="sobreMi__image">
           </div>
         </div>
       </template>
     </section>
 
-    <section class="misServicios">
-      <div class="misServicios__container">
-        <h1 class="misServicios__titulo">Mis Servicios</h1>
-      </div>
 
-      <div class="misServicios__container-general">
-        <template class="misServicios__template">
-          <div class="misServicios__container">
-            <img src="" alt="">
-            <h2 class="misServicios__container-titulo">Hago Cosas</h2>
-            <p class="misServicios__container-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eius ipsa harum? Quos molestias temporibus exercitationem. Voluptates hic dolorum iure, atque molestiae voluptas nam, vel exercitationem numquam, rem facilis laudantium.</p>
-          </div>
-        </template>
-      </div>
-    </section>
+    <div class="servicios-div"></div>
 
 
       <!-- * * COMPONENTE DEL FORMULARIO -->
       <div class="form-div"></div>
 
+
     <!-- * * COMPONENTE DEL FOOTER -->
     <div class="footer-div"></div>
 </body>
+
 
 </html>

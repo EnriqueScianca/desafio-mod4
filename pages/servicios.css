@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+}
+
+.misServicios{
+  background-color: #303F9F;
+}
+
+.misServicios__titulo{
+  text-align: center;
+  padding: 20px;
+  padding: 50px 10px 35px 10px;
+  margin: 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+@media(min-width: 960px){
+  .misServicios__titulo{
+    font-size: 32px;
+  }
+}
+
+.misServicios__img{
+  width: 80px;
+  height: 80px;
+  margin-left: 40%;
+}
+
+@media(min-width: 960px){
+  .misServicios__img{
+    margin-left: 47%;
+  }
+}
+
+
+.misServicios__container-titulo{
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.misServicios__container-texto{
+  text-align: center;
+  padding: 20px;
+  color: white;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+
+@media(min-width: 960px){
+  .misServicios__container-texto{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.portfolio{
+  background-color: #303F9F;
+}
+.portfolio-title{
+  font-size: 38px;
+  /* margin: 40px 0 0 0; */
+  padding: 40px 0 0 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  color: #FFFFFF;
+}
+.portfolio-description{
+  font-size: 24px;
+  margin: 7px 0 0 0 ;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+.portfolio-content{
+  /* margin-top: 20px; */
+  padding: 40px;
+  display: grid;
+  gap:40px;
+  background-color: #303F9F;
+}
+
+@media(min-width: 960px) {
+  .portfolio-content{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.portfolio-card{
+  border: solid 2px black;
+  border-radius: 4px;
+}
+
+.portfolio-img{
+  object-fit: cover;
+  height: 255px;
+  width: 100%;
+}
+
+.portfolio-card-content{
+  padding: 20px;
+  background-color: #C5CAE9;
+
+}
+
+.portfolio-card-title{
+  font-size: 30px;
+  margin: 30px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.portfolio-card-text{
+  margin: 0;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.portfolio-card-link{
+  color: black;  
+  text-align: right;
+  display: block;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+

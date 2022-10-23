@@ -1,1 +1,7 @@
-// *TODO: En el main llamar a las funciones de los componentes que son reutilizables
+function main() {
+  headerComponent(document.querySelector(".header-div"));
+  contactoComponent(document.querySelector(".form-div"));
+  footerComponent(document.querySelector(".footer-div"));
+}
+
+main();
